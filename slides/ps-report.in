@@ -46,6 +46,30 @@
 
 
 <div class="slide">
+<h1>An example report</h1>
+<img src="pix/multiline_header.png" alt="" class="centeredImg" />
+</div>
+
+<div class="slide">
+<h1>A simple report description</h1>
+<code src="../hello_world.pl" section="report_desc" />
+</div>
+
+<div class="slide">
+<h1>A simple report description with data</h1>
+<code src="../hello_world.pl" section="report_desc" />
+<div style="padding-top: 0.75ex" />
+<code src="../hello_world.pl" section="rows" />
+</div>
+
+<div class="slide">
+<h1>Running the report</h1>
+<code src="../hello_world.pl" section="run" />
+<p>And the result is:</p>
+<img src="pix/hello_world.png" alt="" class="centeredImg" />
+</div>
+
+<div class="slide">
 <h1>The Report Header</h1>
 <img src="pix/report_header.png" alt="" />
 </div>
@@ -70,6 +94,22 @@
 <img src="pix/report_footer.png" alt="" />
 </div>
 
+<div class="slide">
+<h1>Q &amp; A</h1>
+<p>Questions?</p>
+</div>
+
+<div class="slide">
+<h1>Goodbye</h1>
+<p>Thanks for coming!</p>
+<p>You can find these slides at:<br/>&nbsp;&nbsp;&nbsp;
+<a href="http://www.cjmweb.net/perl/yapc2010/">http://www.cjmweb.net/perl/yapc2010/</a>
+</p>
+<p>Or, if you want to see how I made these slides:<br/>&nbsp;&nbsp;&nbsp;
+<a href="http://github.com/madsen/yapc2010-postscript-report">http://github.com/madsen/yapc2010-postscript-report</a>
+</p>
+</div>
+
 </div>
 
 </body>
@@ -77,4 +117,5 @@
 
 <!-- Local Variables: -->
 <!-- mode: nxml -->
+<!-- compile-command: "../build_slides.pl ps-report.in index.html" -->
 <!-- End: -->

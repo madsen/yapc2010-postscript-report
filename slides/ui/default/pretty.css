@@ -79,6 +79,18 @@ html>body .external {border-bottom: none;}
 img.incremental {visibility: hidden;}
 .slide .current {color: #B02;}
 
+/*--------------------------------------------------------------------
+ * Pretty Perl code
+ *-------------------------------------------------------------------*/
+
+.perlcode  { color: black }
+.PLcomment { color: #B22222; /*font-style: italic*/ }
+.PLkeyword { color: #A020F0 }
+.PLsymbol  { color: #AAAA00 }
+.PLsingle,
+.PLdouble  { color: #DD7700 }
+
+.centeredImg { display: block;  margin-left: auto;  margin-right: auto }
 
 /* diagnostics
 
