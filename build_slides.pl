@@ -60,6 +60,8 @@ sub print_code
 
   $code = $1;
 
+  $code =~ s/^##(?:BEGIN|END).+\n//gm; # Remove embedded section markers
+
   my $html = $formatter->html(\$code);
 
   # Fix word => value:

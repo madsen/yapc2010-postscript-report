@@ -57,8 +57,6 @@
 
 <div class="slide">
 <h1>A simple report description with data</h1>
-<code src="../hello_world.pl" section="report_desc" />
-<div style="padding-top: 0.75ex" />
 <code src="../hello_world.pl" section="rows" />
 </div>
 
@@ -92,6 +90,28 @@
 <div class="slide">
 <h1>The Report Footer</h1>
 <img src="pix/report_footer.png" alt="" />
+</div>
+
+<div class="slide">
+<h1>A simple report dump</h1>
+<pre>
+align     : left    padding_bottom: 4
+border    : 1       padding_side  : 3
+line_width: 0.5     row_height    : 15
+
+
+page_header:                      detail:
+ PSR::HBox:                        PSR::HBox:
+  children:                         children:
+   PSR::Field:                       PSR::Field:
+    value : PSR::Value::Constant      value     : 0
+     value : Line
+    width : 25                        width     : 25
+   PSR::Field:                       PSR::Field:
+    value : PSR::Value::Constant      value     : 1
+     value : Text
+    width : 443                       width     : 443
+</pre>
 </div>
 
 <div class="slide">

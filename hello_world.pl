@@ -11,6 +11,7 @@ use warnings;
 
 use PostScript::Report;
 
+##BEGIN rows
 ##BEGIN report_desc
 # Describe the report:
 my $report_desc = {
@@ -23,7 +24,6 @@ my $report_desc = {
 }; # end $report_desc
 ##END report_desc
 
-##BEGIN rows
 # Data for the report:
 my @rows = (
   [ 1, 'Hello, world!' ],
@@ -35,10 +35,10 @@ my @rows = (
 # Build the report and run it:
 my $rpt = PostScript::Report->build($report_desc);
 
+$rpt->dump; ##HIDE
 $rpt->run(\@rows)->output("hello_world.ps");
 ##END run
 
-# $rpt->dump;
 
 # Create PNG for slide:
 use PostScript::Convert;
@@ -48,3 +48,7 @@ psconvert($rpt, 'slides/pix/hello_world.png',
 
 system qw(mogrify -trim -bordercolor white -border 2x2
           slides/pix/hello_world.png);
+
+# Local Variables:
+# compile-command: "perl hello_world.pl"
+# End:
