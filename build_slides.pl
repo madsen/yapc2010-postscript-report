@@ -61,6 +61,7 @@ sub print_code
   $code = $1;
 
   $code =~ s/^##(?:BEGIN|END).+\n//gm; # Remove embedded section markers
+  $code =~ s/^.*##HIDE.*\n//gm;        # Remove hidden lines
 
   my $html = $formatter->html(\$code);
 
