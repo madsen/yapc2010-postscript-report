@@ -51,6 +51,30 @@
 </div>
 
 <div class="slide">
+<h1>Report Components</h1>
+<table width="100%">
+<col span="2" width="1*" />
+<tr><td>
+<p>Components:</p>
+<ul>
+<li>Checkbox</li>
+<li>Field</li>
+<li>FieldTL</li>
+<li>Image</li>
+<li>LinkField</li>
+<li>Spacer</li>
+</ul>
+</td>
+<td>
+<p>Containers:</p>
+<ul>
+<li>HBox</li>
+<li>VBox</li>
+</ul>
+</td></tr></table>
+</div>
+
+<div class="slide">
 <h1>A simple report description</h1>
 <code src="../hello_world.pl" section="report_desc" />
 </div>
