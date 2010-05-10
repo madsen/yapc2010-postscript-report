@@ -51,7 +51,7 @@
 </div>
 
 <div class="slide">
-<h1>Report Components</h1>
+<h1>Available Components</h1>
 <table width="100%">
 <col span="2" width="1*" />
 <tr><td>
@@ -75,6 +75,31 @@
 </div>
 
 <div class="slide">
+<h1>Report Sections: Report Header</h1>
+<img src="pix/report_header.png" alt="" />
+</div>
+
+<div class="slide">
+<h1>Report Sections: Page Header</h1>
+<img src="pix/page_header.png" alt="" />
+</div>
+
+<div class="slide">
+<h1>Report Sections: Detail</h1>
+<img src="pix/detail.png" alt="" />
+</div>
+
+<div class="slide">
+<h1>Report Sections: Page Footer</h1>
+<img src="pix/page_footer.png" alt="" />
+</div>
+
+<div class="slide">
+<h1>Report Sections: Report Footer</h1>
+<img src="pix/report_footer.png" alt="" />
+</div>
+
+<div class="slide">
 <h1>A simple report description</h1>
 <code src="../hello_world.pl" section="report_desc" />
 </div>
@@ -89,31 +114,6 @@
 <code src="../hello_world.pl" section="run" />
 <p>And the result is:</p>
 <img src="pix/hello_world.png" alt="" class="centeredImg" />
-</div>
-
-<div class="slide">
-<h1>The Report Header</h1>
-<img src="pix/report_header.png" alt="" />
-</div>
-
-<div class="slide">
-<h1>The Page Header</h1>
-<img src="pix/page_header.png" alt="" />
-</div>
-
-<div class="slide">
-<h1>The Detail</h1>
-<img src="pix/detail.png" alt="" />
-</div>
-
-<div class="slide">
-<h1>The Page Footer</h1>
-<img src="pix/page_footer.png" alt="" />
-</div>
-
-<div class="slide">
-<h1>The Report Footer</h1>
-<img src="pix/report_footer.png" alt="" />
 </div>
 
 <div class="slide">
