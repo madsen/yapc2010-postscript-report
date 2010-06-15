@@ -252,7 +252,7 @@ my $data = {
   'partDesc'          => 'TURBOFAN',
   'partNumReturned'   => '957X1427-3',
   'serialNumReturned' => 'N/A',
-  'materialType'      => 'FOO BAR 123',
+  'materialType'      => 'FOO BAR 123 WITH STRETCHED FUSELAGE',
   'custOrderNum'      => '8452647',
   'dateReceived'      => '05/06/2009',
   'roDueDate'         => '05/06/2009',
@@ -307,3 +307,7 @@ system qw(mogrify -trim -bordercolor white -border 1x1 -rotate 90
           slides/pix/multiline_header.png);
 
 # $rpt->dump;
+
+# Local Variables:
+# compile-command: "perl multiline_header.pl"
+# End:
