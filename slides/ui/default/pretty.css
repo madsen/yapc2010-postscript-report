@@ -75,8 +75,6 @@ ul.urls {list-style: none; display: inline; margin: 0;}
 html>body .external {border-bottom: none;}
 .external:after {content: " \274F"; font-size: smaller; color: #77B;}
 
-.incremental, .incremental *, .incremental *:after {color: #DDE; visibility: visible;}
-img.incremental {visibility: hidden;}
 .slide .current {color: #B02;}
 
 /*--------------------------------------------------------------------
@@ -96,3 +94,6 @@ td { vertical-align: top }
 
 li:after {content: " [" attr(class) "]"; color: #F88;}
  */
+
+.incremental, .incremental *, .incremental *:after { /*visibility: hidden */ color: #DDE; visibility: visible;}
+img.incremental {visibility: hidden;}
