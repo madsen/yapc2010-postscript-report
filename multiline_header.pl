@@ -16,6 +16,7 @@ use PostScript::Report ();
 my $blank = \'';
 
 my $desc = {
+##BEGIN font_desc
   fonts => {
     label     => 'Helvetica-6',
     text      => 'Helvetica-9',
@@ -24,9 +25,12 @@ my $desc = {
     bottomRow => 'Helvetica-6',
     disclaimerText => 'Helvetica-Bold-8',
   },
+##END font_desc
 
+##BEGIN font_use
   font       => 'text',
   label_font => 'label',
+##END font_use
   align      => 'center',
 
   padding_bottom => 4,
