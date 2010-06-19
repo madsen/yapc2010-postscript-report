@@ -43,11 +43,13 @@ $rpt->run(\@rows)->output("hello_world.ps");
 # Create PNG for slide:
 use PostScript::Convert;
 
+##BEGIN slide
 psconvert($rpt, 'slides/pix/hello_world.png',
           gs_param => [qw(-r150)]);
 
 system qw(mogrify -trim -bordercolor white -border 2x2
           slides/pix/hello_world.png);
+##END slide
 
 # Local Variables:
 # compile-command: "perl hello_world.pl"
