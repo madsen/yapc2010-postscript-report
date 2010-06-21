@@ -45,14 +45,15 @@ my $desc = {
 
   default_field_type => 'FieldTL',
 
-  # The report_header is one line with text fields left, center, & right.
+##BEGIN rpt_head
+  # The report_header is one line with text fields
   # All values are constant.
   report_header => [
     HBox => { border => 0,
               font => 'boldText',
               height => 12,
               padding_side   => 0,
-              _default => 'Field', # override default_field_type
+              _default => 'Field',
             },
     { width  => 200,
       align  => 'left',
@@ -63,6 +64,7 @@ my $desc = {
       align  => 'right',
       value  => \'F.A.A REPAIR STATION NO. L3PF428Q' },
   ],
+##END rpt_head
 
   # The page_header is fairly complex.
   # The Material Type field spans rows 2 and 3.

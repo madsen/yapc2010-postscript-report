@@ -52,12 +52,6 @@
 </div>
 
 <div class="slide">
-<h1>PostScript::Report is still young</h1>
-<img src="pix/youngreport.jpg" alt="" class="centeredImg" />
-<p align="center">But already useful</p>
-</div>
-
-<div class="slide">
 <h1>Available Components</h1>
 <table width="100%">
 <col span="2" width="1*" />
@@ -79,6 +73,12 @@
 <li>VBox</li>
 </ul>
 </td></tr></table>
+</div>
+
+<div class="slide">
+<h1>PostScript::Report is still young</h1>
+<img src="pix/youngreport.jpg" alt="" class="centeredImg" />
+<p align="center">But already useful</p>
 </div>
 
 <div class="slide">
@@ -192,6 +192,12 @@ page_header:                      detail:
 </pre>
 </div>
 
+
+<div class="slide">
+<h1>An example section description</h1>
+<code src="../multiline_header.pl" section="rpt_head" />
+</div>
+
 <div class="slide">
 <h1>Font specifications</h1>
 <p>You must declare all fonts used at the report level:</p>
@@ -204,7 +210,7 @@ page_header:                      detail:
 <h1>Colors</h1>
 <p>There are 3 ways to specify a color:</p>
 <ul>
-<li>a number in the range 0 to 1<br/>(0 = black, 1 = white)</li>
+<li>a floating point number in the range 0 to 1<br/>(0 = black, 1 = white)</li>
 <li>HTML-style hex triplet form<br/>(<tt>'#FF0'</tt> or <tt>'#FFFF00'</tt> for yellow)</li>
 <li>an arrayref of three numbers <tt>[&nbsp;Red,&nbsp;Green,&nbsp;Blue&nbsp;]</tt><br/>(where each number is in the range 0 to 1)</li>
 </ul>
