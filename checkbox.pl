@@ -34,8 +34,7 @@ my $rpt = PostScript::Report->build($desc);
 
 psconvert($rpt->run, 'slides/pix/checkbox.png', gs_param => [qw(-r20)]);
 
-system qw(mogrify -trim -bordercolor white -border 1x1
-          slides/pix/checkbox.png);
+system qw(mogrify -trim slides/pix/checkbox.png);
 
 # Local Variables:
 # compile-command: "perl checkbox.pl"
