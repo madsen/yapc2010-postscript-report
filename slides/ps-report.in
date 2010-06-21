@@ -58,7 +58,7 @@
 <tr><td>
 <p>Components:</p>
 <ul>
-<li>Checkbox</li>
+<li>Checkbox <img src="pix/checkbox.png" /></li>
 <li>Field</li>
 <li>FieldTL</li>
 <li>Image</li>
