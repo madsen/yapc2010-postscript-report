@@ -52,6 +52,12 @@
 </div>
 
 <div class="slide">
+<h1>PostScript::Report is still young</h1>
+<img src="pix/youngreport.jpg" alt="" class="centeredImg" />
+<p align="center">But already useful</p>
+</div>
+
+<div class="slide">
 <h1>Available Components</h1>
 <table width="100%">
 <col span="2" width="1*" />
@@ -98,12 +104,6 @@
 <div class="slide">
 <h1>Report Sections: Report Footer</h1>
 <img src="pix/report_footer.png" alt="" />
-</div>
-
-<div class="slide">
-<h1>PostScript::Report is still young</h1>
-<p>Picture of Jensen here</p>
-<p>But already useful (another picture?)</p>
 </div>
 
 <div class="slide">
@@ -234,7 +234,8 @@ through Ghostscript to generate a PDF file or PNG images.</p>
 
 <div class="slide">
 <h1>Q &amp; A</h1>
-<p>Questions?</p>
+<img src="pix/questions.jpg" alt="" class="centeredImg" />
+<p align="center">Questions?</p>
 </div>
 
 <div class="slide">
@@ -259,6 +260,6 @@ for the job.  It wouldn&rsquo;t have happened without them.</p>
 </html>
 
 <!-- Local Variables: -->
-<!-- mode: nxml -->
+<!-- mode: xml -->
 <!-- compile-command: "../build_slides.pl ps-report.in index.html" -->
 <!-- End: -->
